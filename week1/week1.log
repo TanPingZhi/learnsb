@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.15)  17 MAY 2024 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.15)  17 MAY 2024 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Intern-193/Desktop/learnsb/CS2102/CS2102.tex
-(c:/Users/Intern-193/Desktop/learnsb/CS2102/CS2102.tex
+**c:/Users/Intern-193/Desktop/learnsb/week1/week1.tex
+(c:/Users/Intern-193/Desktop/learnsb/week1/week1.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -537,34 +537,34 @@ Package: inconsolata 2019/05/17 v1.12
  `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
 \zifour@ocount=\count333
 ))
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 74.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 77.
  (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 74.
+(Font)              scaled to size 9.19998pt on input line 77.
+ (week1.aux)
+\openout1 = `week1.aux'.
 
-No file CS2102.aux.
-\openout1 = `CS2102.aux'.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -618,9 +618,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 77.
+ (week1.out) (week1.out)
 \@outlinefile=\write3
-\openout3 = `CS2102.out'.
+\openout3 = `week1.out'.
 
 \c@mv@tabular=\count340
 \c@mv@boldtabular=\count341
@@ -629,138 +630,75 @@ Package hyperref Info: Link coloring OFF on input line 74.
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 76.
+(Font)              scaled to size 7.35999pt on input line 79.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 88.
+(Font)              scaled to size 13.24796pt on input line 91.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 13.24796pt on input line 88.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(Font)              scaled to size 13.24796pt on input line 91.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
  (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
  (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 92.
+(Font)              scaled to size 11.03998pt on input line 94.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 92.
-LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 93.
- (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ot1zi4.fd
-File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 8.0pt on input line 93.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 98.
+(Font)              scaled to size 11.03998pt on input line 94.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 96.
  (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 98.
+(Font)              scaled to size 7.35999pt on input line 96.
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 98.
+ (C:\Users\Intern-193\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ot1zi4.fd
+File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 8.0pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 7.35999pt on input line 110.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 128.
-<./images/databaselayers.png, id=4, 679.78969pt x 639.89063pt>
-File: ./images/databaselayers.png Graphic file (type png)
-<use ./images/databaselayers.png>
-Package pdftex.def Info: ./images/databaselayers.png  used on input line 151.
-(pdftex.def)             Requested size: 204.4938pt x 192.48615pt.
-<./images/downloadh2.png, id=6, 1140.51094pt x 573.64313pt>
-File: ./images/downloadh2.png Graphic file (type png)
-<use ./images/downloadh2.png>
-Package pdftex.def Info: ./images/downloadh2.png  used on input line 184.
-(pdftex.def)             Requested size: 204.4938pt x 102.84866pt.
+(Font)              scaled to size 9.19998pt on input line 234.
  [1
 
-{C:/Users/Intern-193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ot1-0.enc} <./images/databaselayers.png> <./images/downloadh2.png>]
-<./images/originalnodao.png, id=27, 951.555pt x 681.29532pt>
-File: ./images/originalnodao.png Graphic file (type png)
-<use ./images/originalnodao.png>
-Package pdftex.def Info: ./images/originalnodao.png  used on input line 226.
-(pdftex.def)             Requested size: 204.4938pt x 146.41325pt.
-<./images/dao.png, id=28, 956.82469pt x 706.13812pt>
-File: ./images/dao.png Graphic file (type png)
-<use ./images/dao.png>
-Package pdftex.def Info: ./images/dao.png  used on input line 231.
-(pdftex.def)             Requested size: 204.4938pt x 150.91165pt.
-<./images/filestructure7_3.png, id=29, 268.00125pt x 246.1697pt>
-File: ./images/filestructure7_3.png Graphic file (type png)
-<use ./images/filestructure7_3.png>
-Package pdftex.def Info: ./images/filestructure7_3.png  used on input line 268.
-(pdftex.def)             Requested size: 204.4938pt x 187.83464pt.
- [2 <./images/originalnodao.png> <./images/dao.png>] [3 <./images/filestructure7_3.png>]
-
-c:/Users/Intern-193/Desktop/learnsb/CS2102/CS2102.tex:357: LaTeX Error: \begin{itemize} on input line 339 ended by \end{multicols}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 \end{multicols*}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-c:/Users/Intern-193/Desktop/learnsb/CS2102/CS2102.tex:357: LaTeX Error: \begin{multicols} on input line 77 ended by \end{multicols*}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 \end{multicols*}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-c:/Users/Intern-193/Desktop/learnsb/CS2102/CS2102.tex:358: LaTeX Error: \begin{multicols*} on input line 77 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.358 \end{document}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(CS2102.aux)
+{C:/Users/Intern-193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ot1-0.enc}]
+<./images/original.png, id=55, 658.71094pt x 280.04625pt>
+File: ./images/original.png Graphic file (type png)
+<use ./images/original.png>
+Package pdftex.def Info: ./images/original.png  used on input line 281.
+(pdftex.def)             Requested size: 204.4938pt x 86.93735pt.
+<./images/choosefile.png, id=57, 434.37282pt x 272.51813pt>
+File: ./images/choosefile.png Graphic file (type png)
+<use ./images/choosefile.png>
+Package pdftex.def Info: ./images/choosefile.png  used on input line 283.
+(pdftex.def)             Requested size: 204.4938pt x 128.29561pt.
+<./images/uploadedfile.png, id=58, 367.3725pt x 286.82156pt>
+File: ./images/uploadedfile.png Graphic file (type png)
+<use ./images/uploadedfile.png>
+Package pdftex.def Info: ./images/uploadedfile.png  used on input line 285.
+(pdftex.def)             Requested size: 204.4938pt x 159.6605pt.
+ [2 <./images/original.png> <./images/choosefile.png> <./images/uploadedfile.png>] (week1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `CS2102.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CS2102.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  04D4E2886324A82FF5AD15FB46B176F3;3181.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 77 (\begingroup)
-### bottom level 
+Package rerunfilecheck Info: File `week1.out' has not changed.
+(rerunfilecheck)             Checksum: 2E13D0602A626F02152E271CDCE35FB7;1171.
+ ) 
 Here is how much of TeX's memory you used:
- 15370 strings out of 474370
- 244825 string characters out of 5738175
- 1953754 words of memory out of 5000000
- 37477 multiletter control sequences out of 15000+600000
- 573908 words of font info for 68 fonts, out of 8000000 for 9000
+ 15360 strings out of 474370
+ 244486 string characters out of 5738175
+ 1972754 words of memory out of 5000000
+ 37474 multiletter control sequences out of 15000+600000
+ 572275 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,93p,586b,795s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on CS2102.pdf (3 pages, 1127390 bytes).
+ 80i,6n,93p,584b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on week1.pdf (2 pages, 92967 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
