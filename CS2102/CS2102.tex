@@ -343,6 +343,21 @@ public class AuthorDaoImplTests {
   \item \hl{Author.builder() allows us to create an Author object}
 \end{itemize}
 
+
+\section{8.1 Spring Data JPA}
+\begin{itemize}
+  \item No longer need the DAO with Spring Data JPA
+  \item No longer need jdbc template
+\end{itemize}
+
+\section{8.2 Create Entities}
+\begin{itemize}
+  \item @Entity
+  \item @Table(name = "authors")
+  \begin{itemize}
+    \item Maps to the authors 
+\end{itemize}
+
 \section{10.1 REST API Design}
 We will be putting books and authors in a postgres db
 \textbf{RestController}
