@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1716183963.19316 "c:/Users/Intern-193/Desktop/learnsb/week1/week1.tex" "week1.pdf" "week1" 1716183964.6084 0
+["pdflatex"] 1716459985.00959 "c:/Users/Intern-193/Desktop/learnsb/week2/week2.tex" "week2.pdf" "week2" 1716459986.23877 0
   "../commands/code.tex" 1715910433 673 272e6c9ed21d8d2f3dad0cb32c4cead2 ""
   "../commands/style-helpers.tex" 1715910433 1258 18eab45ec9479a6c9fc7372b1495b751 ""
   "C:/Users/Intern-193/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1715911048 138015 59d065424a851e22c1ae4c8fcdad4626 ""
@@ -127,16 +127,13 @@
   "C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "C:/Users/Intern-193/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
-  "c:/Users/Intern-193/Desktop/learnsb/week1/week1.tex" 1716183962 9933 2210c6e9264f33955c0b87d67a70ccd0 ""
-  "images/choosefile.png" 1715934278 20951 7d05bce93656e1a0be5faa6827aca107 ""
-  "images/original.png" 1715934252 25333 9c7f915b04d12fa342722f4db21755a4 ""
-  "images/uploadedfile.png" 1715934302 13835 41fe99243bb167af61210242472cdd97 ""
-  "week1.aux" 1716183964 1217 149525912302d318cca8bd88fb019f87 "pdflatex"
-  "week1.out" 1716183964 1171 2e13d0602a626f02152e271cdce35fb7 "pdflatex"
-  "week1.tex" 1716183962 9933 2210c6e9264f33955c0b87d67a70ccd0 ""
+  "c:/Users/Intern-193/Desktop/learnsb/week2/week2.tex" 1716459982 3605 5af0fa52a659508a9e780e2562762cc4 ""
+  "week2.aux" 1716459986 604 10efe05ae295ae1e3216e526acd8ba86 "pdflatex"
+  "week2.out" 1716459986 756 7da2d543d92bf11b34478fac7e385fa8 "pdflatex"
+  "week2.tex" 1716459982 3605 5af0fa52a659508a9e780e2562762cc4 ""
   (generated)
-  "week1.aux"
-  "week1.log"
-  "week1.out"
-  "week1.pdf"
+  "week2.aux"
+  "week2.log"
+  "week2.out"
+  "week2.pdf"
   (rewritten before read)

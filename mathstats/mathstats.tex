@@ -1,0 +1,153 @@
+\documentclass[10pt, landscape]{article}
+\usepackage{amsmath}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage[a4paper,margin=3mm,landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx,overpic}
+\usepackage{hyperref}
+\usepackage{newtxtext} 
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{mathtools}
+\setlist{nosep}
+% for including images
+\graphicspath{ {./images/} }
+
+\pdfinfo{
+  /Title (springboot.pdf)
+  /Creator (TeX)
+  /Producer (pdfTeX 1.40.0)
+  /Author (Tan Ping Zhi)
+  /Subject (CSIT)
+/Keywords (springboot, nus,cheatsheet,pdf)}
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%x
+{\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+  {-1explus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%
+{\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {1ex plus .2ex}%
+{\normalfont\small\bfseries}}%
+\makeatother
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand\rmdefault{\sfdefault}
+%  makes nested numbering (e.g. 1.1.1, 1.1.2, etc)
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand\labelitemii{•}
+\renewcommand\labelitemiii{•}
+
+\definecolor{mathblue}{cmyk}{1,.72,0,.38}
+\everymath\expandafter{\the\everymath \color{mathblue}}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+%% adjust spacing for all itemize/enumerate
+\setlength{\leftmargini}{0.5cm}
+\setlength{\leftmarginii}{0.5cm}
+\setlist[itemize,1]{leftmargin=2mm,labelindent=1mm,labelsep=1mm}
+\setlist[itemize,2]{leftmargin=4mm,labelindent=1mm,labelsep=1mm}
+\setlist[itemize,3]{leftmargin=4mm,labelindent=1mm,labelsep=1mm}
+
+% adding my commands
+\input{../commands/style-helpers.tex}
+\input{../commands/code.tex}
+\DeclareMathOperator{\pairwisemax}{pairwise-max}
+
+\definecolor{myred}{rgb}{1,0,0} % RGB color model
+\newcommand{\hlred}[1]{{\sethlcolor{myred}\hl{#1}}}
+
+% -----------------------------------------------------------------------
+
+\begin{document}
+\raggedright
+\footnotesize
+\begin{multicols*}{2}
+  % multicol parameters
+  \setlength{\columnseprule}{0.25pt}
+
+  \begin{center}
+    \fbox{%
+    \parbox{0.8\linewidth}{\centering \textcolor{black}{
+      {\Large\textbf{Week 1}}
+      \\ \normalsize{CSIT 2024}}
+    \\ {\footnotesize \textcolor{gray}{github/TanPingZhi}}
+    }%
+    }
+  \end{center}
+
+  \section{1. Probabilty}
+  \subsection{7. Prove that $P(A \cap B) \ge P(A) + P(B) - 1$}
+  \begin{align}
+    P(A \cup B) & = P(A) + P(B) - P(A \cap B) \ge 1 \\
+    1           & \ge P(A) + P(B) - P(A \cap B)     \\
+    P(A \cap B) & \ge P(A) + P(B) - 1
+  \end{align}
+
+  \subsection{8. Prove $P(\bigcup\limits_{i=1}^{n}A_i) \le  \sum \limits_{i=1}^{n} P(A_i)$}
+  Through sheer force of will, \\
+  Consider the marginal $B_j = A_j - \bigcup\limits_{i=1}^{i-1}A_i$
+  \begin{align*}
+    P(\bigcup\limits_{i=1}^{n}A_i) & = P(\bigcup\limits_{j=1}^{n}B_j)  \\
+                                   & = \sum \limits_{j=1}^{n} P(B_j)   \\
+                                   & \le \sum \limits_{i=1}^{n} P(A_i)
+  \end{align*}
+
+  \subsection{15. How many different meals can be made from 4 kinds of meat, 6 vegetables, and 3 starches if a meal consists of one selection from each group?}
+  $4*6*3 = 72$
+
+  \subsection{35. Prove the following 2 identities both algebraically and combinatorially}
+  % \subsubsection{a. $\binom{n}{r}$}
+  $\binom{n}{r} = \binom{n}{n-r}$
+  \begin{align*}
+    \binom{n}{r} & = \frac{n!}{r!(n-r)!} \\
+                 & = \frac{n!}{(n-r)!r!} \\
+                 & = \binom{n}{n-r}
+  \end{align*}
+  $\binom{n}{r} = \binom{n-1}{r-1} + \binom{n-1}{r}$ \\
+  Consider an objeect that is either in the set or not in the set.
+  If it is in the set, then there are $r-1$ objects left to choose from $n-1$ objects.
+  If it is not in the set, then there are $r$ objects left to choose from $n-1$ objects.
+
+  \section{2. Random Variables}
+  \subsection{21. If X is a geometric RV, show that}
+  $P(X > n + k - 1 | X > n - 1) = P(X > k)$
+  \begin{align*}
+    P(X=k)                       & = (1-p)^{k-1}p                                                                                     \\
+    P(X > n + k - 1 | X > n - 1) & = \frac{\sum_{i = n + k}^{\infty} P(X = i)}{\sum_{i = n}^{\infty} P(X = i)}                        \\
+                                 & = 1 - \frac{\sum_{i = n}^{n + k - 1} (1-p)^{i-1}p}{\sum_{i = n}^{\infty} (1-p)^{i-1}p}             \\
+                                 & = 1 - \frac{\sum_{i = n}^{n + k - 1} (1-p)^{i-1}}{\sum_{i = n}^{\infty} (1-p)^{i-1}}               \\
+                                 & = 1 - \frac{(1-p)^{n-1}\sum_{i = 0}^{k - 1} (1-p)^{i}}{(1-p)^{n-1}\sum_{i = 0}^{\infty} (1-p)^{i}} \\
+                                 & = 1 - \frac{\sum_{i = 0}^{k - 1} (1-p)^{i}}{\sum_{i = 0}^{\infty} (1-p)^{i}}                       \\
+                                 & = 1 - \frac{\sum_{i = 0}^{k - 1} (1-p)^{i}}{\frac{1}{p}}                                           \\
+                                 & = 1 - \sum_{i = 0}^{k - 1} (1-p)^{i}p                                                              \\
+                                 & = P(X > k)
+  \end{align*}
+
+  \subsection{In a sequence of independent trials with probability p of success, what is the
+  probability that there are r successes before the kth failure?}
+  \begin{align*}
+    \text{Consider the combination of k-1 failures and r successes. The last trial wil be the kth failure.} \\
+    (1-p) * \binom{r + k - 1}{k-1} * (1-p)^{k-1} * p^r &= (1-p)^k * p ^ r * \binom{r + k - 1}{k-1}
+  \end{align*}
+
+
+
+\end{multicols*}
+\end{document}

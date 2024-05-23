@@ -1,0 +1,116 @@
+\documentclass[10pt, landscape]{article}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage[a4paper,margin=3mm,landscape]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{color,graphicx,overpic}
+\usepackage{hyperref}
+\usepackage{newtxtext} 
+\usepackage{enumitem}
+\usepackage[table]{xcolor}
+\usepackage{mathtools}
+\setlist{nosep}
+% for including images
+\graphicspath{ {./images/} }
+
+\pdfinfo{
+  /Title (springboot.pdf)
+  /Creator (TeX)
+  /Producer (pdfTeX 1.40.0)
+  /Author (Tan Ping Zhi)
+  /Subject (CSIT)
+/Keywords (springboot, nus,cheatsheet,pdf)}
+
+% Turn off header and footer
+\pagestyle{empty}
+
+% redefine section commands to use less space
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%x
+{\normalfont\large\bfseries}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0mm}%
+  {-1explus -.5ex minus -.2ex}%
+  {0.5ex plus .2ex}%
+{\normalfont\normalsize\bfseries}}
+\renewcommand{\subsubsection}{\@startsection{subsubsection}{3}{0mm}%
+  {-1ex plus -.5ex minus -.2ex}%
+  {1ex plus .2ex}%
+{\normalfont\small\bfseries}}%
+\makeatother
+
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand\rmdefault{\sfdefault}
+%  makes nested numbering (e.g. 1.1.1, 1.1.2, etc)
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+\renewcommand\labelitemii{•}
+\renewcommand\labelitemiii{•}
+
+\definecolor{mathblue}{cmyk}{1,.72,0,.38}
+\everymath\expandafter{\the\everymath \color{mathblue}}
+
+% Don't print section numbers
+\setcounter{secnumdepth}{0}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt plus 0.5ex}
+%% adjust spacing for all itemize/enumerate
+\setlength{\leftmargini}{0.5cm}
+\setlength{\leftmarginii}{0.5cm}
+\setlist[itemize,1]{leftmargin=2mm,labelindent=1mm,labelsep=1mm}
+\setlist[itemize,2]{leftmargin=4mm,labelindent=1mm,labelsep=1mm}
+\setlist[itemize,3]{leftmargin=4mm,labelindent=1mm,labelsep=1mm}
+
+% adding my commands
+\input{../commands/style-helpers.tex}
+\input{../commands/code.tex}
+\DeclareMathOperator{\pairwisemax}{pairwise-max}
+
+\definecolor{myred}{rgb}{1,0,0} % RGB color model
+\newcommand{\hlred}[1]{{\sethlcolor{myred}\hl{#1}}}
+
+% -----------------------------------------------------------------------
+
+\begin{document}
+\raggedright
+\footnotesize
+\begin{multicols*}{2}
+    % multicol parameters
+    \setlength{\columnseprule}{0.25pt}
+
+    \begin{center}
+        \fbox{%
+        \parbox{0.8\linewidth}{\centering \textcolor{black}{
+            {\Large\textbf{Week 2}}
+            \\ \normalsize{CSIT 2024}}
+        \\ {\footnotesize \textcolor{gray}{github/TanPingZhi}}
+        }%
+        }
+    \end{center}
+
+    \section{Install Elasticsearch in ubuntu}
+    https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
+
+    \section{Install Kibana in ubuntu}
+
+    \section{Managing Elasticsearch Services}
+    \begin{itemize}
+        \item \texttt{sudo service elasticsearch start}
+        \item \texttt{sudo service elasticsearch stop}
+        \item \texttt{sudo service elasticsearch restart}
+        \item \texttt{sudo service elasticsearch status}
+    \end{itemize}
+
+    \section{Managing Kibana Services}
+    \begin{itemize}
+        \item \texttt{sudo service kibana start}
+        \item \texttt{sudo service kibana stop}
+        \item \texttt{sudo service kibana restart}
+        \item \texttt{sudo service kibana status}
+    \end{itemize}
+
+\end{multicols*}
+\end{document}
