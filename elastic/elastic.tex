@@ -91,72 +91,7 @@
     }
   \end{center}
 
-  \section{Install Elasticsearch in ubuntu}
-  https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html
-
-  \section{Install Kibana in ubuntu}
-  https://www.elastic.co/guide/en/kibana/8.13/deb.html
-
-  \subsection{Remark}
-  \hl{Shit doesn't work on windows, use WSL.}
-  \section{Managing Elasticsearch Services}
-  \begin{itemize}
-    \item \texttt{sudo service elasticsearch start}
-    \item \texttt{sudo service elasticsearch stop}
-    \item \texttt{sudo service elasticsearch restart}
-    \item \texttt{sudo service elasticsearch status}
-  \end{itemize}
-
-  \section{Managing Kibana Services}
-  \begin{itemize}
-    \item \texttt{sudo service kibana start}
-    \item \texttt{sudo service kibana stop}
-    \item \texttt{sudo service kibana restart}
-    \item \texttt{sudo service kibana status}
-  \end{itemize}
-
-  \section{Get enrollment token}
-  On WSL, the softwares are downloaded to /usr/share/ \\
-  sudo ./elasticsearch-create-enrollment-token -s kibana
-
-  \section{Default login}
-  username: elastic \\
-  password: found when installing elasticsearch through cli \\
-  wNSSJjATh2T9DF1m+-MV
-
-  \hl{Go to http:localhost:9200 for elasticsearch} it doesnt work with https
-
-  \section{Adding data to elasticsearch}
-  I just want to know how elasticsearch can integrate with Java.
-
-  index: test-index \\
-  type: \_doc \\
-  id: \\
-  name: \\
-  \begin{verbatim}
-curl -X POST "https://localhost:9200/test-index/_doc/1" -H 'Content-Type: application/json' -d'
-{
-  "id": 1,
-  "name": "John Doe"
-}
-' -k -u elastic:wNSSJjATh2T9DF1m+-MV
-  \end{verbatim}
-
-\section{Creating a demo spring boot project with elasticsearch}
-\subsection{Spring initializer}
-\begin{itemize}
-  \item Spring Web
-  \item Spring Data Elasticsearch
-  \item Thymeleaf
-\end{itemize}
-
-\subsection{application.properties}
-\begin{verbatim}
-spring.elasticsearch.uris=https://localhost:9200
-spring.elasticsearch.username=elastic
-spring.elasticsearch.password=wNSSJjATh2T9DF1m+-MV
-spring.elasticsearch.ssl.certificate-verification=none
-\end{verbatim}
+  
 
 
 \end{multicols*}

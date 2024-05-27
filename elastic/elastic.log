@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.23)  24 MAY 2024 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.4.23)  24 MAY 2024 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/josia/Desktop/learnsb/week2/week2.tex
-(c:/Users/josia/Desktop/learnsb/week2/week2.tex
+**c:/Users/josia/Desktop/learnsb/elastic/elastic.tex
+(c:/Users/josia/Desktop/learnsb/elastic/elastic.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\josia\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -542,8 +542,8 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 77.
- (week2.aux)
-\openout1 = `week2.aux'.
+ (elastic.aux)
+\openout1 = `elastic.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
 LaTeX Font Info:    ... okay on input line 77.
@@ -618,9 +618,9 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 77.
- (week2.out) (week2.out)
+ (elastic.out) (elastic.out)
 \@outlinefile=\write3
-\openout3 = `week2.out'.
+\openout3 = `elastic.out'.
 
 \c@mv@tabular=\count338
 \c@mv@boldtabular=\count339
@@ -641,53 +641,28 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
  (C:\Users\josia\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 94.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 11.03998pt on input line 94.
-LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 9.19998pt on input line 100.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 104.
- (C:\Users\josia\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 104.
-LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 104.
- (C:\Users\josia\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ot1zi4.fd
-File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 8.0pt on input line 104.
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 143.
- (C:\Users\josia\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
-File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
-)
-LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 8.0pt on input line 143.
- [1
+) [1
 
-{C:/Users/josia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ot1-0.enc}{C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-ts1.enc}] (week2.aux)
+{C:/Users/josia/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (elastic.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `week2.out' has not changed.
-(rerunfilecheck)             Checksum: 522547D37477398A5C1D58E94FCDA270;1945.
+Package rerunfilecheck Info: File `elastic.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15385 strings out of 474486
- 243689 string characters out of 5743755
- 1945542 words of memory out of 5000000
- 37378 multiletter control sequences out of 15000+600000
- 572564 words of font info for 67 fonts, out of 8000000 for 9000
+ 15270 strings out of 474486
+ 241844 string characters out of 5743755
+ 1927542 words of memory out of 5000000
+ 37290 multiletter control sequences out of 15000+600000
+ 567886 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,6n,93p,579b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on week2.pdf (1 page, 50037 bytes).
+ 80i,6n,93p,583b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/josia/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on elastic.pdf (1 page, 14993 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 22 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
